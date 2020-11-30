@@ -43,4 +43,6 @@ You should get this confusion matrix, COVID-19 sensitivity of **93.16%**, F1 sco
 | **CP** 	| 174 	| 7139 	| 82 	|
 | **COVID-19** 	| 27 	| 277 	| 4042 	|
 
-To train from scratch, make sure you have a directory `--train_seg_data_dir` with `--imgs_dir` and `--gt_dir` subdirectories for the segmentation branch and `--train_class_data_dir` for the classification branch. The links to the data and train/val/splits are here: On  a GPU with 8Gb VRAM 50 epochs should take about 5 hours. 
+To train from scratch, make sure you have a directory `--train_seg_data_dir` with `--imgs_dir` and `--gt_dir` subdirectories for the segmentation branch and `--train_class_data_dir` for the classification branch. The links to the data  are here: http://ncov-ai.big.ac.cn/download, the train/test/validation splits are in `.txt` files above and in the source split: `https://github.com/haydengunraj/COVIDNet-CT/blob/master/docs/dataset.md`. 
+
+On  a GPU with 8Gb VRAM 50 epochs should take about 5 hours. 
