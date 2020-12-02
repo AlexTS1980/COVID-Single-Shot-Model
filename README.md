@@ -1,5 +1,9 @@
 # COVID-Single-Shot-Model Project
 
+Preprint:
+
+[Single-Shot Lightweight Model For The Detection of Lesions And The Prediction of COVID-19 From Chest CT Scans](https://www.researchsquare.com/article/rs-119569/v1)
+
 Conceptually the model is similar to COVID-CT-Mask-Net, but there are a lot of new functionality, so I decided to create a new repository. Of the models presented in the paper, I uploaded the architecture and the weights for the one trained from scratch with two parallel branches (segmentation/classification).
 
 # Single Shot Model:
