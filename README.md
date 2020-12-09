@@ -8,7 +8,8 @@ BibTex:
 ```
 article {Ter-Sarkisov2020.12.01.20241786,
 	author = {Ter-Sarkisov, Aram},
-	title = {Single-Shot Lightweight Model For The Detection of Lesions And The Prediction of COVID-19 From Chest CT Scans},
+	title = {Single-Shot Lightweight Model For The Detection of 
+	Lesions And The Prediction of COVID-19 From Chest CT Scans},
 	year = {2020},
 	doi = {10.1101/2020.12.01.20241786},
 	publisher = {Cold Spring Harbor Laboratory Press},
