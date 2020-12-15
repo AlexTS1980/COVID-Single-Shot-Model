@@ -6,7 +6,7 @@ Preprint oin medRxiv:
 
 BibTex:
 ```
-article {Ter-Sarkisov2020.12.01.20241786,
+@article {Ter-Sarkisov2020.12.01.20241786,
 	author = {Ter-Sarkisov, Aram},
 	title = {Single-Shot Lightweight Model For The Detection of 
 	Lesions And The Prediction of COVID-19 From Chest CT Scans},
