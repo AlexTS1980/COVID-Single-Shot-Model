@@ -1,5 +1,11 @@
 # COVID-Single-Shot-Model Project
 
+[Presentation](https://github.com/AlexTS1980/COVID-Single-Shot-Model/blob/master/presentations/COVID_19_Presentation_Maryland.pdf) at the University of Maryland 09-12-2020
+
+<p align="center">
+<img src="https://github.com/AlexTS1980/COVID-Single-Shot-Model/blob/master/figures/Presentation_Maryland.png" width="750" height="400" align="center"/>
+</p>
+
 Preprint oin medRxiv:
 
 [Single-Shot Lightweight Model For The Detection of Lesions And The Prediction of COVID-19 From Chest CT Scans](https://www.medrxiv.org/content/10.1101/2020.12.01.20241786v1)
@@ -17,7 +23,7 @@ BibTex:
 }
 ```
 
-Conceptually the model is similar to COVID-CT-Mask-Net, but there are a lot of new functionality, so I decided to create a new repository. Of the models presented in the paper, I uploaded the architecture and the weights for the one trained from scratch with two parallel branches (segmentation/classification).
+Conceptually the model is similar to COVID-CT-Mask-Net, but there are a lot of new functionality, so I decided to create a new repository. Of the models presented in the paper, I uploaded the architecture and the weights for the one trained from scratch with two parallel branches (segmentation + classification).
 
 # Single Shot Model:
 
