@@ -1,6 +1,6 @@
 # COVID-Single-Shot-Model Project
 
-[Presentation](https://github.com/AlexTS1980/COVID-Single-Shot-Model/blob/master/presentations/COVID_19_Presentation_Maryland.pdf) at the University of Maryland 09-12-2020
+[Presentation](https://github.com/AlexTS1980/COVID-Single-Shot-Model/blob/master/presentations/COVID_19_Presentation_Maryland.pdf) at the University of Maryland 09-12-2020. The content is mainly the model on github: simultaneous segmentation and COVID-19 prediction, the model is trained from scratch. 
 
 <p align="center">
 <img src="https://github.com/AlexTS1980/COVID-Single-Shot-Model/blob/master/figures/Presentation_Maryland.png" width="750" height="400" align="center"/>
