@@ -1,5 +1,22 @@
 # COVID-Single-Shot-Model Project
 
+Preprint oin medRxiv:
+
+[Single-Shot Lightweight Model For The Detection of Lesions And The Prediction of COVID-19 From Chest CT Scans](https://www.medrxiv.org/content/10.1101/2020.12.01.20241786v1)
+
+BibTex:
+```
+@article {Ter-Sarkisov2020.12.01.20241786,
+	author = {Ter-Sarkisov, Aram},
+	title = {Single-Shot Lightweight Model For The Detection of 
+	Lesions And The Prediction of COVID-19 From Chest CT Scans},
+	year = {2020},
+	doi = {10.1101/2020.12.01.20241786},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	journal = {medRxiv}
+}
+```
+
 Conceptually the model is similar to COVID-CT-Mask-Net, but there are a lot of new functionality, so I decided to create a new repository. Of the models presented in the paper, I uploaded the architecture and the weights for the one trained from scratch with two parallel branches (segmentation/classification).
 
 # Single Shot Model:
@@ -43,4 +60,8 @@ You should get this confusion matrix, COVID-19 sensitivity of **93.16%**, F1 sco
 | **CP** 	| 174 	| 7139 	| 82 	|
 | **COVID-19** 	| 27 	| 277 	| 4042 	|
 
-To train from scratch, make sure you have a directory `--train_seg_data_dir` with `--imgs_dir` and `--gt_dir` subdirectories for the segmentation branch and `--train_class_data_dir` for the classification branch. The links to the data and train/val/splits are here: On  a GPU with 8Gb VRAM 50 epochs should take about 5 hours. 
+To train from scratch, make sure you have a directory `--train_seg_data_dir` with `--imgs_dir` and `--gt_dir` subdirectories for the segmentation branch and `--train_class_data_dir` for the classification branch. The links to the data  are here: http://ncov-ai.big.ac.cn/download, the train/test/validation splits are in `.txt` files above and in the source split: https://github.com/haydengunraj/COVIDNet-CT/blob/master/docs/dataset.md. 
+
+On  a GPU with 8Gb VRAM 50 epochs should take about 5 hours. 
+
+For any questions, contact Alex Ter-Sarkisov, alex.ter-sarkisov@city.ac.uk
