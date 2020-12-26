@@ -1,5 +1,3 @@
-# torchvision:
-# /home/enterprise.internal.city.ac.uk/sbrn151/.local/lib/python3.5/site-packages/torchvision/models/detection/__init__.py
 import os
 import pickle
 import re
