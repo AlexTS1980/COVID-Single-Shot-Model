@@ -1,3 +1,13 @@
+# Update 28/12/20
+I evaluated SSM on the test split of iCTCF-CT data (http://ictcf.biocuckoo.cn), 12976 CT slices, here's the results:
+
+|  Class	| Control |	 COVID-19 	|
+|:-:	|:-:	|:-:	
+| **Control** 	| 94.12% 	| 5.88% 	|
+| **COVID-19** 	| 1.2% 	| 98.78% 	|
+
+Model weights are [here](https://drive.google.com/file/d/1eX6OTh1eej9-VOzjXEoiubyQU2YExSrD/view?usp=sharing). Train and test splits of the data are in `ictcf_train.txt` and `ictcf_test.txt`.  
+
 # COVID-Single-Shot-Model Project
 
 [Presentation](https://github.com/AlexTS1980/COVID-Single-Shot-Model/blob/master/presentations/COVID_19_Presentation_Maryland.pdf) at the University of Maryland 09-12-2020. The content is mainly the model on github: simultaneous segmentation and COVID-19 prediction, the model is trained from scratch. 
