@@ -1,5 +1,5 @@
 # Update 28/12/20
-I evaluated SSM on the test split of iCTCF-CT data (http://ictcf.biocuckoo.cn), 12976 CT slices, here's the results:
+I evaluated SSM on the test split of iCTCF-CT data (http://ictcf.biocuckoo.cn), 12976 CT slices, here's the results (F1 score: 95.45%):
 
 |  Class	| Control |	 COVID-19 	|
 |:-:	|:-:	|:-:	
