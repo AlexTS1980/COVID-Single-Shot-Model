@@ -213,7 +213,7 @@ def main_step(stage, e, dataloader_class, dataloader_seg, optimizer, device, mod
         optimizer.step()
         epoch_loss_classification += classifier_loss.item()
     # save model?
-    if not e % save_every:
+    if not (e+1) % save_every:
         model.eval()
         state = {'epoch': str(e), 'model_weights': model.state_dict(),
                  'optimizer_state': optimizer.state_dict(), 'lrate': lrate, 'anchor_generator':anchors}
